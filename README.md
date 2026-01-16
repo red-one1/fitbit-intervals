@@ -34,7 +34,7 @@ The app builds a payload using INTERVALS_FIELD_MAP_JSON. Defaults:
 - steps -> summary.steps
 - kcalConsumed -> summary.caloriesOut
 
-- does NOT include 'readiness', because Fitbit suck.
+- ==does NOT include 'readiness', because Fitbit suck.==
 
 Override with JSON in .env, for example:
 
