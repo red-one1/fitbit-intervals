@@ -30,10 +30,11 @@ The app builds a payload using INTERVALS_FIELD_MAP_JSON. Defaults:
 - avgSleepingHR -> sleep.avg_hr
 - spO2 -> spo2
 - hrv -> hrv.rmssd
-- readiness -> readiness
 - respiration -> respiration
 - steps -> summary.steps
 - kcalConsumed -> summary.caloriesOut
+
+- does NOT include 'readiness', because Fitbit suck.
 
 Override with JSON in .env, for example:
 
